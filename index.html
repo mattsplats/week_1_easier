@@ -2,33 +2,50 @@
 <html>
 <head>
 	<title>Wireframe</title>
-	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="header">
+	<header>
 		<p>header</p>
-	</div>
+	</header>
 
-	<div id="nav">
+	<nav>
 		<p>nav</p>
-	</div>
+	</nav>
 
+	<!-- block for section and aside -->
 	<section id="content">
+		
+		<!-- section block -->
 		<div id="section">
-			<div><p>section<br/></p></div>
-			<div id="article"><p id="article_text">article</p>
-				<div class="article_line"><h1 class="article_line_text">h1, h2, h3</h1></div>
-				<div class="article_line"><p class="article_line_text">p</p></div>
+			<p>section<br/></p>
+
+			<!-- article block w/ alternate color -->
+			<div id="article">
+				<p id="article_text">article</p>
+				
+				<!-- first block within article -->
+				<div class="article_line">
+					<div class="article_line_text">
+						<h1>h1,</h1> <h2>h2,</h2> <h3>h3</h3>
+					</div>
+				</div>
+
+				<!-- second block within article -->
+				<div class="article_line">
+					<p class="article_line_text">p</p>
+				</div>
 			</div>
 		</div>
+
+		<!-- aside block -->
 		<div id="aside">
 			<p>aside</p>
 		</div>
 	</section>
 
-	<div id="footer">
+	<footer>
 		<p>footer</p>
-	</div>
+	</footer>
 </body>
 </html>
